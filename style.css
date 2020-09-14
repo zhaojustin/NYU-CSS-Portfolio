@@ -77,6 +77,10 @@ hr {
     display: table;
 }
 
+iframe {
+    width: 100%;
+}
+
 .spacer {
     height: 150px;
     width: 100%;
