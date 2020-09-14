@@ -86,4 +86,5 @@ object {
     height: 150px;
     width: 100%;
     display: block;
+    clear:both;
 }
