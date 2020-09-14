@@ -12,6 +12,7 @@ body {
 main {
     text-align: center;
     padding: 8%;
+    padding-left: 12%;
     margin: 0 auto;
 }
 
@@ -43,4 +44,8 @@ hr {
     content: "";
     clear: both;
     display: table;
+}
+
+.spacer {
+    height: 150px;
 }
