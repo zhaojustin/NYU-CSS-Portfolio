@@ -1,19 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
 body {
-    width: 100%;
-    height: 100%;
-
     font-family: 'Roboto Condensed';
     font-weight: 400;
     letter-spacing: 0.05em;
+    margin: 0 0;
+    width: 100%;
 }
 
 main {
     text-align: center;
-    padding: 8%;
-    padding-left: 12%;
     margin: 0 auto;
+}
+
+.content {
+    display: block;
+    padding: 10%;
+    padding-top: 0;
 }
 
 h1 {
@@ -29,16 +32,44 @@ h2 {
 
 hr {
     margin: 5%;
+    display: block;
 }
 
 .aboutMe {
-    height: 60%;
+    display: block;
+    height: 100%;
 }
 
+.aboutMe .left {
+    float: left; 
+    width: 50%;
+    padding: 5%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.aboutMe .right {
+    float: right; 
+    width: 20%; 
+    text-align: left;
+    padding-right: 15%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+
+.contact-box {
+    display: flex;
+    margin-right: 30%;
+}
+
+.row {
+    display: flex;
+    flex-direction:row;
+    margin: 0 auto;
+}
 .column {
-    width: 30%;
-    float: left;
-    padding: 0.5%;
+    width: 32%;
+    padding: 0.65%;
 }
 .row::after {
     content: "";
@@ -48,4 +79,6 @@ hr {
 
 .spacer {
     height: 150px;
+    width: 100%;
+    display: block;
 }
